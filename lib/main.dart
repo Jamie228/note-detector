@@ -35,20 +35,20 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              ButtonTheme(
-                minWidth: 170,
-                child: RaisedButton(
-                  child: Text("Detect in Image"),
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => StaticImage(),
-                      ),
-                    );
-                  },
-                ),
-              ),
+              // ButtonTheme(
+              //   minWidth: 170,
+              //   child: RaisedButton(
+              //     child: Text("Detect in Image"),
+              //     onPressed: () {
+              //       Navigator.push(
+              //         context,
+              //         MaterialPageRoute(
+              //           builder: (context) => StaticImage(),
+              //         ),
+              //       );
+              //     },
+              //   ),
+              // ),
               ButtonTheme(
                 minWidth: 170,
                 child: RaisedButton(
