@@ -47,8 +47,6 @@ dev_dependencies:
 flutter:
 
   assets:
-    - assets/models/notes.tflite
-    - assets/models/labels.txt
     - assets/models/label_nn.txt
     - assets/models/nn.tflite
     - assets/images/
